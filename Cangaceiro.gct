@@ -1,0 +1,1722 @@
+{
+	"version": 5,
+	"id": "BM2bL9NnTkNNAEcSW",
+	"traits": [
+		{
+			"id": "TovW8oq95FBYa7p45",
+			"name": "Cangaceiro",
+			"children": [
+				{
+					"id": "tPkh9gHtP3hwAFMts",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tz-USDL9B_KrrVqDi"
+					},
+					"name": "Luck",
+					"reference": "B66,P59",
+					"local_notes": "Usable once per hour of play",
+					"tags": [
+						"Advantage",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "mLvm4alL0xntfugCm",
+							"name": "Active",
+							"reference": "B66",
+							"cost_adj": "-40%",
+							"disabled": true
+						},
+						{
+							"id": "mlwn8SGrYJtPgrSKX",
+							"name": "Aspected",
+							"reference": "B66",
+							"local_notes": "@Aspect@",
+							"cost_adj": "-20%",
+							"disabled": true
+						},
+						{
+							"id": "mU77fZ0ZM3eFbViTN",
+							"name": "Defensive",
+							"reference": "B66",
+							"cost_adj": "-20%",
+							"disabled": true
+						},
+						{
+							"id": "mcp1degjzxyusNYN5",
+							"name": "Wishing",
+							"reference": "P59",
+							"cost_adj": "100%",
+							"disabled": true
+						},
+						{
+							"id": "m0gc7cshlbK4rlaDH",
+							"name": "Game Time",
+							"reference": "P108",
+							"local_notes": "Uses per game day equal to its maximum possible uses per real hour",
+							"disabled": true
+						}
+					],
+					"base_points": 15,
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"id": "tFqecm5MzEJTgpfFT",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tERWfEKV80M6toQn3"
+					},
+					"name": "Increased Will",
+					"reference": "B16",
+					"tags": [
+						"Advantage",
+						"Attribute",
+						"Mental"
+					],
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "will",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 5,
+						"current_level": 1
+					}
+				},
+				{
+					"id": "tlwsl94QpdTmKz4qz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t04cLZ44QvEYdsP3F"
+					},
+					"name": "Sense of Duty",
+					"reference": "B153",
+					"tags": [
+						"Disadvantage",
+						"Mental"
+					],
+					"replacements": {
+						"Small Group": "Bando"
+					},
+					"modifiers": [
+						{
+							"id": "mKu2V1kKeL7D51WfW",
+							"name": "Friends and Companions",
+							"reference": "B153",
+							"cost_adj": "-5",
+							"disabled": true
+						},
+						{
+							"id": "m90j76RQq4SFRG7CD",
+							"name": "@Small Group@",
+							"reference": "B153",
+							"cost_adj": "-5"
+						},
+						{
+							"id": "mw_rdFAnJu3hZeBEz",
+							"name": "@Individual@",
+							"reference": "B153",
+							"cost_adj": "-2",
+							"disabled": true
+						},
+						{
+							"id": "mVSRDQlb906wl3Fco",
+							"name": "@Large Group@",
+							"reference": "B153",
+							"cost_adj": "-10",
+							"disabled": true
+						},
+						{
+							"id": "maf7e6UrsPZwwP_4J",
+							"name": "@Entire Race@",
+							"reference": "B153",
+							"cost_adj": "-15",
+							"disabled": true
+						},
+						{
+							"id": "mT_tVW7Qp0venRLrd",
+							"name": "Every Living Being",
+							"reference": "B153",
+							"cost_adj": "-20",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tREvkQvAZEKyPEa-6",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t7U0VbIzs6SqefwLr"
+					},
+					"name": "Social Stigma (Criminal Record)",
+					"reference": "B155",
+					"tags": [
+						"Disadvantage",
+						"Social"
+					],
+					"base_points": -5,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from non-criminals who learn of your Criminal Record. Police, judges, vigilantes, and other law-and-order types react at -2",
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "tSZPPZjtaKZq5Vz8P",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tw1Ad0oSMw2ATM4X1"
+					},
+					"name": "Language: @Language@",
+					"reference": "B24",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": false,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								},
+								"level": {
+									"compare": "at_least"
+								}
+							}
+						]
+					},
+					"replacements": {
+						"Language": "Português"
+					},
+					"modifiers": [
+						{
+							"id": "mugQJW83eOFih6BgL",
+							"name": "Native",
+							"reference": "B23",
+							"cost_adj": "-6"
+						},
+						{
+							"id": "mfUI-ziMQeMhVY3-w",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "None",
+							"disabled": true
+						},
+						{
+							"id": "mk2a9MKucHr2v-Z8M",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Broken",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mVPnkcG__8zAr7srV",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "2",
+							"disabled": true
+						},
+						{
+							"id": "mOBPT6CDhR7GiVO3X",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "3"
+						},
+						{
+							"id": "mb4ydCrN8dIYtBMfg",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "None",
+							"disabled": true
+						},
+						{
+							"id": "mHBVOQmkRsbvPwjBJ",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Broken",
+							"cost_adj": "1"
+						},
+						{
+							"id": "mfWgIFEF-gR6Q-DrT",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "2",
+							"disabled": true
+						},
+						{
+							"id": "mCgSdj5SXCtF_1xKu",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "3",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": -2
+					}
+				}
+			],
+			"calc": {
+				"points": 8
+			}
+		}
+	],
+	"skills": [
+		{
+			"id": "SOZ0CJGKBON0MUbLV",
+			"name": "Cangaceiro",
+			"children": [
+				{
+					"id": "s1SZPTp7AsHodtOqS",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s3hbw6Ngz9_5OFNcR"
+					},
+					"name": "Guns",
+					"reference": "B198",
+					"tags": [
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"specialization": "Rifle",
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Rifle",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						}
+					],
+					"tech_level": "",
+					"points": 4
+				},
+				{
+					"id": "s9IbMFOvQv__mPxI0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "slOONrK6jDHvcRoGx"
+					},
+					"name": "Knife",
+					"reference": "B208",
+					"tags": [
+						"Combat",
+						"Melee Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/e",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"points": 2
+				},
+				{
+					"id": "spDJXcPYevkrg5neg",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sw6twMMqbSiWNaKtg"
+					},
+					"name": "Riding",
+					"reference": "B217",
+					"tags": [
+						"Animal"
+					],
+					"specialization": "Equines",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Animal Handling",
+							"specialization": "Equines",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sYFrWkLTi2R4CYUY1",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "svEm7OyeCu_9wJ8Kk"
+					},
+					"name": "Stealth",
+					"reference": "B222",
+					"tags": [
+						"Criminal",
+						"Police",
+						"Spy",
+						"Street"
+					],
+					"difficulty": "dx/a",
+					"encumbrance_penalty_multiplier": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "se7vB3tOFh6uPZ8Li",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "shun-iitiwyWbrGcF"
+					},
+					"name": "Intimidation",
+					"reference": "B202",
+					"tags": [
+						"Criminal",
+						"Police",
+						"Social",
+						"Street"
+					],
+					"difficulty": "will/a",
+					"defaults": [
+						{
+							"type": "will",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Acting",
+							"modifier": -3
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s9Mpvn1F3KITsTmQq",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sao5KzLs_4Bp0z208"
+					},
+					"name": "Survival",
+					"reference": "B223",
+					"tags": [
+						"Exploration",
+						"Outdoor"
+					],
+					"replacements": {
+						"Any Land": "Semi-Árido"
+					},
+					"specialization": "@Any Land@",
+					"difficulty": "per/a",
+					"defaults": [
+						{
+							"type": "per",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Naturalist",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Survival",
+							"specialization": "Arctic",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Survival",
+							"specialization": "Desert",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Survival",
+							"specialization": "Island/Beach",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Survival",
+							"specialization": "Jungle",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Survival",
+							"specialization": "Mountain",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Survival",
+							"specialization": "Plains",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Survival",
+							"specialization": "Swamplands",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Survival",
+							"specialization": "Woodlands",
+							"modifier": -3
+						}
+					],
+					"points": 1,
+					"defaulted_from": {
+						"type": "per",
+						"modifier": -5,
+						"level": 6,
+						"adjusted_level": 6,
+						"points": -6
+					}
+				}
+			]
+		}
+	],
+	"equipment": [
+		{
+			"id": "EclxPg5w8-S_rlT2x",
+			"description": "Cangaceiro",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "e2Bd4nwMJB9cp1SXK",
+					"description": "Saddled Horse",
+					"legality_class": "4",
+					"base_value": "1200",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 1200,
+						"extended_value": 1200,
+						"weight": "0 lb",
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "ebbL7n4lboJJdilPa",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Equipment.eqp",
+						"id": "eSkpxAVUFdjWZpCaA"
+					},
+					"description": "Dagger",
+					"reference": "B272",
+					"tech_level": "1",
+					"tags": [
+						"Melee Weapon",
+						"Missile Weapon"
+					],
+					"base_value": "20",
+					"base_weight": "0.25 lb",
+					"weapons": [
+						{
+							"id": "w6HX6YwpCb78cxXqT",
+							"sv": 1,
+							"damage": {
+								"type": "imp",
+								"st": "thr",
+								"base": "-1"
+							},
+							"strength": "5",
+							"usage": "Thrust",
+							"reach": "C",
+							"parry": "-1",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Knife"
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Main-Gauche",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Sword!"
+								}
+							],
+							"calc": {
+								"damage": "thr-1 imp"
+							}
+						},
+						{
+							"id": "WnbQ09BvSwkz6Fvmb",
+							"sv": 1,
+							"damage": {
+								"type": "imp",
+								"st": "thr",
+								"base": "-1"
+							},
+							"strength": "5",
+							"usage": "Thrown",
+							"range": "x0.5/x1",
+							"rate_of_fire": "1",
+							"shots": "T",
+							"bulk": "-1",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Thrown Weapon",
+									"specialization": "Knife"
+								}
+							],
+							"calc": {
+								"damage": "thr-1 imp"
+							}
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 20,
+						"extended_value": 20,
+						"weight": "0.25 lb",
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "ewmUpCWC1IEg8PVMW",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Equipment.eqp",
+						"id": "eLpY_lV7JPT_Srj5A"
+					},
+					"description": "Ordinary Clothes",
+					"reference": "B266",
+					"local_notes": "Status 0",
+					"tags": [
+						"Clothing"
+					],
+					"base_value": "120",
+					"base_weight": "2 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 120,
+						"extended_value": 120,
+						"weight": "2 lb",
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "ePhlRa0ZtqU_lTzZt",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Equipment.eqp",
+						"id": "epjuxYIP6F7fIg2N1"
+					},
+					"description": "Leather Cap",
+					"reference": "B284",
+					"local_notes": "Flexible",
+					"tech_level": "1",
+					"tags": [
+						"Headgear"
+					],
+					"base_value": "32",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"skull"
+							],
+							"amount": 1
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 32,
+						"extended_value": 32,
+						"weight": "0 lb",
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "enN5-ihEcXYjKZHYd",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Equipment.eqp",
+						"id": "eRA26uszm1kmjCNFD"
+					},
+					"description": "Gibão (Buff Coat (Leather))",
+					"reference": "B283",
+					"local_notes": "Flexible",
+					"tech_level": "4",
+					"tags": [
+						"Body Armor"
+					],
+					"base_value": "210",
+					"base_weight": "16 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"arm",
+								"leg",
+								"torso",
+								"vitals"
+							],
+							"amount": 2
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 210,
+						"extended_value": 210,
+						"weight": "16 lb",
+						"extended_weight": "16 lb"
+					}
+				},
+				{
+					"id": "ewnljJCGFm87A2GqA",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Equipment.eqp",
+						"id": "ehIxhuv_8_PA8EnPd"
+					},
+					"description": "Cloth Armor",
+					"reference": "B283",
+					"local_notes": "Flexible, concealable",
+					"tech_level": "1",
+					"tags": [
+						"Body Armor"
+					],
+					"base_value": "30",
+					"base_weight": "6 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"groin",
+								"torso",
+								"vitals"
+							],
+							"amount": 1
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 30,
+						"extended_value": 30,
+						"weight": "6 lb",
+						"extended_weight": "6 lb"
+					}
+				},
+				{
+					"id": "EMJGxb9fRBEFajjCJ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "High Tech/High Tech Equipment.eqp",
+						"id": "EC9pbuRiqgNLqH3AW"
+					},
+					"description": "Bornal",
+					"reference": "HT31",
+					"tech_level": "5",
+					"tags": [
+						"General Equipment"
+					],
+					"base_value": "10",
+					"base_weight": "1 lb",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "contained_weight_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": "20 lb"
+								}
+							}
+						]
+					},
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "e4znz0KhTAnCI0sap",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Equipment.eqp",
+								"id": "eCmue6B6tqEQZvGPg"
+							},
+							"description": "Lariat",
+							"reference": "B276",
+							"tech_level": "1",
+							"tags": [
+								"Missile Weapon"
+							],
+							"base_value": "40",
+							"base_weight": "3 lb",
+							"weapons": [
+								{
+									"id": "Wdut2R10deTQmX3u-",
+									"sv": 1,
+									"damage": {
+										"type": "see B411"
+									},
+									"strength": "7†",
+									"rate_of_fire": "1",
+									"shots": "T",
+									"bulk": "-2",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Lasso"
+										}
+									],
+									"calc": {
+										"damage": "see B411"
+									}
+								}
+							],
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 40,
+								"extended_value": 40,
+								"weight": "3 lb",
+								"extended_weight": "3 lb"
+							}
+						},
+						{
+							"id": "eUK1rI9-UCKB6kmyB",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "High Tech/High Tech Equipment.eqp",
+								"id": "ef6DIL-84hNQxb2cy"
+							},
+							"description": "Sewing Kit",
+							"reference": "HT31",
+							"tech_level": "5",
+							"tags": [
+								"General Equipment"
+							],
+							"base_value": "1",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 1,
+								"extended_value": 1,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "ek9ElvMp_NFngRdkN",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "High Tech/High Tech Equipment.eqp",
+								"id": "eX4YtbQ2w0gEu4Ycc"
+							},
+							"description": "Rede",
+							"reference": "HT56",
+							"local_notes": "Survival -2",
+							"tech_level": "1",
+							"tags": [
+								"General Equipment"
+							],
+							"base_value": "20",
+							"base_weight": "4 lb",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 20,
+								"extended_value": 20,
+								"weight": "4 lb",
+								"extended_weight": "4 lb"
+							}
+						},
+						{
+							"id": "eFZZ20P4AxzS_dI8v",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "High Tech/High Tech Equipment.eqp",
+								"id": "eok6NGSKCpupWxiLe"
+							},
+							"description": "Jerky",
+							"reference": "HT35",
+							"tech_level": "5",
+							"tags": [
+								"General Equipment"
+							],
+							"base_value": "2",
+							"base_weight": "0.25 lb",
+							"quantity": 9,
+							"equipped": true,
+							"calc": {
+								"value": 2,
+								"extended_value": 18,
+								"weight": "0.25 lb",
+								"extended_weight": "2.25 lb"
+							}
+						},
+						{
+							"id": "EEKbzW3wGlSGeKB_h",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "High Tech/High Tech Equipment.eqp",
+								"id": "eY_2WQXxOPveFEJKi"
+							},
+							"description": "Canteen",
+							"reference": "HT53",
+							"local_notes": "1 qt capacity",
+							"tech_level": "5",
+							"tags": [
+								"General Equipment"
+							],
+							"base_value": "10",
+							"base_weight": "1 lb",
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "contained_weight_prereq",
+										"has": true,
+										"qualifier": {
+											"compare": "at_most",
+											"qualifier": "2 lb"
+										}
+									}
+								]
+							},
+							"quantity": 1,
+							"equipped": true,
+							"children": [
+								{
+									"id": "elnXgSBLyUABeMrt-",
+									"source": {
+										"library": "/cangaco",
+										"path": "Ferramentas e Sobrevivência.eqp",
+										"id": "eWFBGXSQuKznMrIW8"
+									},
+									"description": "Water",
+									"local_notes": "1 quart",
+									"base_weight": "2",
+									"quantity": 1,
+									"equipped": true,
+									"calc": {
+										"value": 0,
+										"extended_value": 0,
+										"weight": "2 lb",
+										"extended_weight": "2 lb"
+									}
+								}
+							],
+							"calc": {
+								"value": 10,
+								"extended_value": 10,
+								"weight": "1 lb",
+								"extended_weight": "3 lb"
+							}
+						}
+					],
+					"calc": {
+						"value": 10,
+						"extended_value": 99,
+						"weight": "1 lb",
+						"extended_weight": "13.25 lb"
+					}
+				},
+				{
+					"id": "ES4STO6pSIpPBjn1z",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "High Tech/High Tech Equipment.eqp",
+						"id": "EC9pbuRiqgNLqH3AW"
+					},
+					"description": "Bornal",
+					"reference": "HT31",
+					"tech_level": "5",
+					"tags": [
+						"General Equipment"
+					],
+					"base_value": "10",
+					"base_weight": "1 lb",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "contained_weight_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": "20 lb"
+								}
+							}
+						]
+					},
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "ejZoHjvN3w0ggRdwL",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "High Tech/High Tech Equipment.eqp",
+								"id": "eckaYUQa-5d4YIyAz"
+							},
+							"description": "Kerosene Lantern",
+							"reference": "HT51",
+							"local_notes": "Dual-fuel. 5-yard radius. Pint/12hrs.",
+							"tech_level": "8",
+							"tags": [
+								"General Equipment"
+							],
+							"base_value": "50",
+							"base_weight": "4 lb",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 50,
+								"extended_value": 50,
+								"weight": "4 lb",
+								"extended_weight": "4 lb"
+							}
+						},
+						{
+							"id": "e5FhIWUhwANq1oMiT",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "High Tech/High Tech Equipment.eqp",
+								"id": "eXWCNVjl-w0U4eabc"
+							},
+							"description": "Kerosene Flask",
+							"reference": "HT16",
+							"local_notes": "One pint",
+							"tech_level": "6",
+							"tags": [
+								"Power"
+							],
+							"base_value": "0.375",
+							"base_weight": "1.625 lb",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 0.375,
+								"extended_value": 0.375,
+								"weight": "1.625 lb",
+								"extended_weight": "1.625 lb"
+							}
+						},
+						{
+							"id": "ecLA6Ulo5V043YLqY",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "High Tech/High Tech Equipment.eqp",
+								"id": "eiykSXXTgOboA-GEm"
+							},
+							"description": "Compass",
+							"reference": "HT52",
+							"tech_level": "5",
+							"tags": [
+								"General Equipment"
+							],
+							"base_value": "25",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 25,
+								"extended_value": 25,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "erwtF18drnY0LvFuI",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "High Tech/High Tech Equipment.eqp",
+								"id": "eDN2SrEnOjWHzpqtP"
+							},
+							"description": "Cigarette Lighter",
+							"reference": "HT57",
+							"tech_level": "6",
+							"tags": [
+								"General Equipment"
+							],
+							"base_value": "10",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 10,
+								"extended_value": 10,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "e0dn-3Lwwe75T_nzl",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "High Tech/High Tech Equipment.eqp",
+								"id": "e5h_mWqt3o3dlFGmq"
+							},
+							"description": "Gun-Cleaning Kit",
+							"reference": "HT160",
+							"tech_level": "4",
+							"tags": [
+								"Firearm Accessories"
+							],
+							"base_value": "20",
+							"base_weight": "0.5 lb",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 20,
+								"extended_value": 20,
+								"weight": "0.5 lb",
+								"extended_weight": "0.5 lb"
+							}
+						}
+					],
+					"calc": {
+						"value": 10,
+						"extended_value": 115.375,
+						"weight": "1 lb",
+						"extended_weight": "7.125 lb"
+					}
+				},
+				{
+					"id": "eeriYntW5MDTd5tQa",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "High Tech/High Tech Equipment.eqp",
+						"id": "eDtwX3wN3ZF5pexs2"
+					},
+					"description": "Belt",
+					"reference": "HT31",
+					"tech_level": "5",
+					"tags": [
+						"General Equipment"
+					],
+					"base_value": "10",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 10,
+						"extended_value": 10,
+						"weight": "0 lb",
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "EVpxbMzV4F9T0nO1u",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "High Tech/High Tech Equipment.eqp",
+						"id": "ENKzQiZL3Tmkj14vi"
+					},
+					"description": "Belt Holster",
+					"reference": "HT153",
+					"tech_level": "5",
+					"tags": [
+						"Firearm Accessories"
+					],
+					"base_value": "25",
+					"base_weight": "0.5 lb",
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "ermEbgKPJ3xrIBXX8",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "High Tech/High Tech Equipment.eqp",
+								"id": "eP8HhUuqOy94GLmy6"
+							},
+							"description": "Colt M1873 SAA, .45 S\u0026W",
+							"reference": "HT95",
+							"local_notes": "No lanyard ring.",
+							"tech_level": "5",
+							"legality_class": "3",
+							"tags": [
+								"Firearms"
+							],
+							"base_value": "500",
+							"base_weight": "3 lb",
+							"weapons": [
+								{
+									"id": "Wi0mRhu8MwEG1cZ4t",
+									"sv": 1,
+									"damage": {
+										"type": "pi+",
+										"base": "2d-1"
+									},
+									"strength": "10",
+									"accuracy": "2",
+									"range": "120/1,300",
+									"rate_of_fire": "1",
+									"shots": "6(3i)",
+									"bulk": "-2",
+									"recoil": "3",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Musket",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Machine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Submachine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Gun!"
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Grenade Launcher",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Gyroc",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Anti-Armor Weapon",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"damage": "2d-1 pi+"
+									}
+								}
+							],
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 500,
+								"extended_value": 500,
+								"weight": "3 lb",
+								"extended_weight": "3 lb"
+							}
+						}
+					],
+					"calc": {
+						"value": 25,
+						"extended_value": 525,
+						"weight": "0.5 lb",
+						"extended_weight": "3.5 lb"
+					}
+				},
+				{
+					"id": "ECQd9oO0LIeRvD9GX",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "High Tech/High Tech Equipment.eqp",
+						"id": "EZ31nyRChF7ifO7zd"
+					},
+					"description": "Rifle Sling",
+					"reference": "HT154",
+					"tech_level": "5",
+					"tags": [
+						"Firearm Accessories"
+					],
+					"base_value": "10",
+					"base_weight": "1 lb",
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "e9LPjadRPGsqq6qO8",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "High Tech/High Tech Equipment.eqp",
+								"id": "ekoTi6HhKXp7nRVvR"
+							},
+							"description": "Winchester M1873, .44-40",
+							"reference": "HT120",
+							"tech_level": "5",
+							"legality_class": "3",
+							"tags": [
+								"Firearms"
+							],
+							"base_value": "420",
+							"base_weight": "8.9 lb",
+							"weapons": [
+								{
+									"id": "Ww8C6llmJEpCKsIxn",
+									"sv": 1,
+									"damage": {
+										"type": "pi+",
+										"base": "3d+1"
+									},
+									"strength": "9†",
+									"accuracy": "3",
+									"range": "300/2,200",
+									"rate_of_fire": "2",
+									"shots": "15+1(2i)",
+									"bulk": "-5",
+									"recoil": "2",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle"
+										},
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Rifle",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Musket",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Shotgun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Machine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Submachine Gun",
+											"modifier": -2
+										},
+										{
+											"type": "skill",
+											"name": "Gun!"
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Grenade Launcher",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Gyroc",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Light Anti-Armor Weapon",
+											"modifier": -4
+										}
+									],
+									"calc": {
+										"damage": "3d+1 pi+"
+									}
+								}
+							],
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 420,
+								"extended_value": 420,
+								"weight": "8.9 lb",
+								"extended_weight": "8.9 lb"
+							}
+						}
+					],
+					"calc": {
+						"value": 10,
+						"extended_value": 430,
+						"weight": "1 lb",
+						"extended_weight": "9.9 lb"
+					}
+				},
+				{
+					"id": "Et1nVGmbXzdwrdYQk",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "High Tech/High Tech Equipment.eqp",
+						"id": "E4fDArJxMHKDhLf_3"
+					},
+					"description": "Cartridge Bandoleer",
+					"reference": "HT54",
+					"local_notes": "Holds 50 rounds.",
+					"tech_level": "5",
+					"tags": [
+						"General Equipment"
+					],
+					"base_value": "15",
+					"base_weight": "1 lb",
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "eoqDtNq9eqX0h3gbV",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "High Tech/High Tech Equipment.eqp",
+								"id": "eicUxdVc1qH0GasHP"
+							},
+							"description": ".44-40 Winchester (10.8x33mmR",
+							"reference": "HT177",
+							"tags": [
+								"Ammunition",
+								"Warheads"
+							],
+							"base_value": "0.6",
+							"base_weight": "0.043 lb",
+							"quantity": 50,
+							"equipped": true,
+							"calc": {
+								"value": 0.6,
+								"extended_value": 30,
+								"weight": "0.043 lb",
+								"extended_weight": "2.15 lb"
+							}
+						}
+					],
+					"calc": {
+						"value": 15,
+						"extended_value": 45,
+						"weight": "1 lb",
+						"extended_weight": "3.15 lb"
+					}
+				},
+				{
+					"id": "ExLbbxsXkTORe-lBW",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "High Tech/High Tech Equipment.eqp",
+						"id": "E4fDArJxMHKDhLf_3"
+					},
+					"description": "Cartridge Bandoleer",
+					"reference": "HT54",
+					"local_notes": "Holds 50 rounds.",
+					"tech_level": "5",
+					"tags": [
+						"General Equipment"
+					],
+					"base_value": "15",
+					"base_weight": "1 lb",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "contained_quantity_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": 50
+								}
+							}
+						]
+					},
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "eJf8K8fxOFL-Kv6n9",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "High Tech/High Tech Equipment.eqp",
+								"id": "eSbpewVsAoQ9JJERq"
+							},
+							"description": ".45 S\u0026W (11.43x28mmR)",
+							"reference": "HT176",
+							"tags": [
+								"Ammunition",
+								"Warheads"
+							],
+							"base_value": "0.5",
+							"base_weight": "0.045 lb",
+							"quantity": 50,
+							"equipped": true,
+							"calc": {
+								"value": 0.5,
+								"extended_value": 25,
+								"weight": "0.045 lb",
+								"extended_weight": "2.25 lb"
+							}
+						}
+					],
+					"calc": {
+						"value": 15,
+						"extended_value": 40,
+						"weight": "1 lb",
+						"extended_weight": "3.25 lb"
+					}
+				},
+				{
+					"id": "eNi6Z9E3aHNSJst96",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Equipment.eqp",
+						"id": "e9Jv_y8-d9IYpcjy1"
+					},
+					"description": "Leather Leggings",
+					"reference": "B283",
+					"local_notes": "Flexible, concealable",
+					"tech_level": "1",
+					"tags": [
+						"Limb Armor"
+					],
+					"base_value": "40",
+					"base_weight": "2 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"leg"
+							],
+							"amount": 1
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 40,
+						"extended_value": 40,
+						"weight": "2 lb",
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "exNx-9eNvP_85ablW",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Equipment.eqp",
+						"id": "eCTWgE9-NyG_jpylR"
+					},
+					"description": "Alpercatas",
+					"reference": "B284",
+					"local_notes": "Concealable",
+					"tech_level": "0",
+					"tags": [
+						"Footwear"
+					],
+					"base_value": "25",
+					"base_weight": "0.5 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"foot"
+							],
+							"specialization": "underside",
+							"amount": 1
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 25,
+						"extended_value": 25,
+						"weight": "0.5 lb",
+						"extended_weight": "0.5 lb"
+					}
+				}
+			],
+			"calc": {
+				"value": 0,
+				"extended_value": 2941.375,
+				"weight": "0 lb",
+				"extended_weight": "66.925 lb"
+			}
+		}
+	]
+}

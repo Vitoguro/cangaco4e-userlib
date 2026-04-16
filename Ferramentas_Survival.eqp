@@ -1,0 +1,937 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eeDrhiCTEt05Kjmlr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eZ_aIhUZdL0Z6pKem"
+			},
+			"description": "Canned Meal",
+			"reference": "HT34",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "1",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 1,
+				"extended_value": 1,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ei5tt_4YUjCIxfOIw",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eZfOejnzBmW1YTgB_"
+			},
+			"description": "Fresh Food",
+			"reference": "HT34",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "3",
+			"base_weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 3,
+				"extended_value": 3,
+				"weight": "2 lb",
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e4Mh9tokKiV-YFISI",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eok6NGSKCpupWxiLe"
+			},
+			"description": "Jerky",
+			"reference": "HT35",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "2",
+			"base_weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 2,
+				"extended_value": 2,
+				"weight": "0.25 lb",
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "EZFMdedVEedqm6eBk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eY_2WQXxOPveFEJKi"
+			},
+			"description": "Canteen",
+			"reference": "HT53",
+			"local_notes": "1 qt capacity",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "10",
+			"base_weight": "1 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "2 lb"
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"children": [
+				{
+					"id": "eWFBGXSQuKznMrIW8",
+					"description": "Water",
+					"local_notes": "1 quart",
+					"base_weight": "2",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 0,
+						"extended_value": 0,
+						"weight": "2 lb",
+						"extended_weight": "2 lb"
+					}
+				}
+			],
+			"calc": {
+				"value": 10,
+				"extended_value": 10,
+				"weight": "1 lb",
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "e5tIEsKjuzUtwqR18",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eyv9VlMxs3qU13lex"
+			},
+			"description": "Religious Symbol",
+			"reference": "HT31",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "1",
+			"quantity": 1,
+			"calc": {
+				"value": 1,
+				"extended_value": 1,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ev09vhdDuZ_yMmN-_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eitGNEbnrydGQX6Du"
+			},
+			"description": "Bull's-Eye Lantern",
+			"reference": "HT51",
+			"local_notes": "10-yard beam. Pint/6hrs.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "25",
+			"base_weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 25,
+				"extended_value": 25,
+				"weight": "2 lb",
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "en3VE89pNGl8cb0Bk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eckaYUQa-5d4YIyAz"
+			},
+			"description": "Kerosene Lantern",
+			"reference": "HT51",
+			"local_notes": "Dual-fuel. 5-yard radius. Pint/12hrs.",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "50",
+			"base_weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 50,
+				"extended_value": 50,
+				"weight": "4 lb",
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eVwfEC40Xm8wbRVKQ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eXWCNVjl-w0U4eabc"
+			},
+			"description": "Kerosene Flask",
+			"reference": "HT16",
+			"local_notes": "One pint",
+			"tech_level": "6",
+			"tags": [
+				"Power"
+			],
+			"base_value": "0.375",
+			"base_weight": "1.625 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 0.375,
+				"extended_value": 0.375,
+				"weight": "1.625 lb",
+				"extended_weight": "1.625 lb"
+			}
+		},
+		{
+			"id": "exojMiU4p3LnapS5J",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eiykSXXTgOboA-GEm"
+			},
+			"description": "Compass",
+			"reference": "HT52",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "25",
+			"quantity": 1,
+			"calc": {
+				"value": 25,
+				"extended_value": 25,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eRbnSNKCXfHyRYr7K",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eZs3AygxzDoUZzr1O"
+			},
+			"description": "Topographic Map",
+			"reference": "HT53",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "30",
+			"quantity": 1,
+			"calc": {
+				"value": 30,
+				"extended_value": 30,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e1X0hfLf4MYExzMha",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e7s4VpvS8mrGQP-aY"
+			},
+			"description": "Rope, 2 1/2\"",
+			"reference": "HT56",
+			"local_notes": "\"Quantity\" represents yards. Supports 1 ton.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "45",
+			"base_weight": "5.5 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 45,
+				"extended_value": 45,
+				"weight": "5.5 lb",
+				"extended_weight": "5.5 lb"
+			}
+		},
+		{
+			"id": "eWwBQuFEt3wVumJfg",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eX4YtbQ2w0gEu4Ycc"
+			},
+			"description": "Rede",
+			"reference": "HT56",
+			"local_notes": "Survival -2",
+			"tech_level": "1",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "20",
+			"base_weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 20,
+				"extended_value": 20,
+				"weight": "4 lb",
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eqdb5ZwXQt8A50jXR",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ehC_wpJDed-f5zwcD"
+			},
+			"description": "Sleeping Bag",
+			"reference": "HT56",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "100",
+			"base_weight": "8 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 100,
+				"extended_value": 100,
+				"weight": "8 lb",
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "ebActkikLcLZn4c7I",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eEvAsWiQXNpQN68eW"
+			},
+			"description": "Sleeping Bag",
+			"reference": "HT56",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "100",
+			"base_weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 100,
+				"extended_value": 100,
+				"weight": "4 lb",
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "e1ddDkv3pAdfp5wfa",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "edHDv3sodzcEygM7G"
+			},
+			"description": "Flint and Steel",
+			"reference": "HT57",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "5",
+			"quantity": 1,
+			"calc": {
+				"value": 5,
+				"extended_value": 5,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eSoTBIDR1Sp0d97uv",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ecjAXV9WTIfflsfAB"
+			},
+			"description": "Matches",
+			"reference": "HT57",
+			"local_notes": "Box of 50.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "0.25",
+			"quantity": 1,
+			"calc": {
+				"value": 0.25,
+				"extended_value": 0.25,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eXVEP_z5XVWy0OIS7",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eDN2SrEnOjWHzpqtP"
+			},
+			"description": "Cigarette Lighter",
+			"reference": "HT57",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "10",
+			"quantity": 1,
+			"calc": {
+				"value": 10,
+				"extended_value": 10,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eP4No55wMr2UAoig7",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "exdf9xBJaBWVgDmpV"
+			},
+			"description": "Cigarette Case",
+			"reference": "HT31",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "30",
+			"base_weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 30,
+				"extended_value": 30,
+				"weight": "0.1 lb",
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eUMtU5ZC5ZiYYx2Se",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e7p5hIh73WS66rUki"
+			},
+			"description": "Cigar Case",
+			"reference": "HT31",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "30",
+			"base_weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 30,
+				"extended_value": 30,
+				"weight": "0.1 lb",
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "e2-glgnUR6FPbUEBo",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eMCNgo8VYNo7JoxSa"
+			},
+			"description": "Fishing Outfit",
+			"reference": "HT58",
+			"local_notes": "Fishing +2.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "200",
+			"base_weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 200,
+				"extended_value": 200,
+				"weight": "10 lb",
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eJDZIqzzrlIf8o0wN",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ekRZCuwJJ-2qYT8qE"
+			},
+			"description": "Fishing Kit",
+			"reference": "HT58",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "5",
+			"quantity": 1,
+			"calc": {
+				"value": 5,
+				"extended_value": 5,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eLG6F0EtreCwRWcfy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eorcvwCZeV7RsffFA"
+			},
+			"description": "Bear Trap",
+			"reference": "HT58",
+			"local_notes": "ST 15. Survival +1. Damage thr+2 crushing.",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "75",
+			"base_weight": "35 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 75,
+				"extended_value": 75,
+				"weight": "35 lb",
+				"extended_weight": "35 lb"
+			}
+		},
+		{
+			"id": "eaRIZbPnwLZtLJRkZ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eKhEDoR6LjqcDffqu"
+			},
+			"description": "Beaver Trap",
+			"reference": "HT58",
+			"local_notes": "ST 8. Survival +1. Damage thr+2 crushing.",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "20",
+			"base_weight": "2.5 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 20,
+				"extended_value": 20,
+				"weight": "2.5 lb",
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "eObbzeer9bBDjXBGW",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e5h_mWqt3o3dlFGmq"
+			},
+			"description": "Gun-Cleaning Kit",
+			"reference": "HT160",
+			"tech_level": "4",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"base_value": "20",
+			"base_weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 20,
+				"extended_value": 20,
+				"weight": "0.5 lb",
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eBaDydXsqBveYaBrE",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ev6IWD4-uE0rGlA0e"
+			},
+			"description": "Broad Axe",
+			"reference": "HT24",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "100",
+			"base_weight": "6 lb",
+			"weapons": [
+				{
+					"id": "wJRaObtO6zqh4siwx",
+					"sv": 1,
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "3"
+					},
+					"strength": "12‡",
+					"usage": "Swing",
+					"reach": "1-2*",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "sw+3 cut"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 100,
+				"extended_value": 100,
+				"weight": "6 lb",
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "eFZXpuSvumpaQFgZL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ePRZwLNE7ZDEXO712"
+			},
+			"description": "Bit and Brace",
+			"reference": "HT25",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "30",
+			"base_weight": "5 lb",
+			"weapons": [
+				{
+					"id": "wS-RQuc25BPPUaaMS",
+					"sv": 1,
+					"damage": {
+						"type": "pi++",
+						"st": "sw",
+						"base": "-2",
+						"armor_divisor": 2
+					},
+					"usage": "Drill through wood",
+					"reach": "C",
+					"calc": {
+						"damage": "sw-2(2) pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 30,
+				"extended_value": 30,
+				"weight": "5 lb",
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "er7jLV4iGu5uRZtXe",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e_1UECwWT7jlR5Jrh"
+			},
+			"description": "Shovel",
+			"reference": "HT25",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "15",
+			"base_weight": "6 lb",
+			"weapons": [
+				{
+					"id": "wRB0-ico10drG2-Jy",
+					"sv": 1,
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "3"
+					},
+					"strength": "12‡",
+					"usage": "Swing Shovel",
+					"reach": "1-2*",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "sw+3 cut"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 15,
+				"extended_value": 15,
+				"weight": "6 lb",
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "eA1WggXN3a7VieeKM",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eUAPucG7wdMC3QgUL"
+			},
+			"description": "Crowbar, 3'",
+			"reference": "B289",
+			"tech_level": "2",
+			"tags": [
+				"Melee Weapon",
+				"Missile Weapon",
+				"Tools"
+			],
+			"base_value": "20",
+			"base_weight": "3 lb",
+			"weapons": [
+				{
+					"id": "wPrSj6yFwND1yuRIc",
+					"sv": 1,
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "2"
+					},
+					"strength": "10",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -1
+						},
+						{
+							"type": "skill",
+							"name": "Flail",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "sw+2 cr"
+					}
+				},
+				{
+					"id": "W42VoZbOVgf9zXGBH",
+					"sv": 1,
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "2"
+					},
+					"strength": "10",
+					"usage": "Thrown",
+					"accuracy": "1",
+					"range": "x1/x1.5",
+					"rate_of_fire": "1",
+					"shots": "T",
+					"bulk": "-3",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Axe/Mace",
+							"modifier": -1
+						}
+					],
+					"calc": {
+						"damage": "sw+2 cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 20,
+				"extended_value": 20,
+				"weight": "3 lb",
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eg0vz5Godeh8Ty7IV",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ef6DIL-84hNQxb2cy"
+			},
+			"description": "Sewing Kit",
+			"reference": "HT31",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "1",
+			"quantity": 1,
+			"calc": {
+				"value": 1,
+				"extended_value": 1,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eOB4G8nVriptUMpM5",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ewMmwBYOzOZZ_uXoj"
+			},
+			"description": "Wristwatch",
+			"reference": "HT31",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "25",
+			"quantity": 1,
+			"calc": {
+				"value": 25,
+				"extended_value": 25,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "edHqQ98qSDLwVQ_mj",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eIxDs5ebRq7gNVsqo"
+			},
+			"description": "Can Opener",
+			"reference": "HT33",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "0.5",
+			"quantity": 1,
+			"calc": {
+				"value": 0.5,
+				"extended_value": 0.5,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eCnGztBxpNVuKnRdY",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ep5-H95iVIK78kQVW"
+			},
+			"description": "Binoculars",
+			"reference": "HT47",
+			"local_notes": "4x magnification.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "100",
+			"base_weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 100,
+				"extended_value": 100,
+				"weight": "4 lb",
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "ex30ab45jUp0NOOFT",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eLyp2DOKwMYvhGZr7"
+			},
+			"description": "Binoculars",
+			"reference": "HT47",
+			"local_notes": "6x magnification.",
+			"tech_level": "6",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "150",
+			"base_weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 150,
+				"extended_value": 150,
+				"weight": "3 lb",
+				"extended_weight": "3 lb"
+			}
+		}
+	]
+}

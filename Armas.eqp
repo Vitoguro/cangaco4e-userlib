@@ -1,0 +1,3880 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "edl_Fqv8hNjnf8CY4",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eP8HhUuqOy94GLmy6"
+			},
+			"description": "Colt M1873 SAA, .45 S\u0026W",
+			"reference": "HT95",
+			"local_notes": "No lanyard ring.",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"Firearms"
+			],
+			"base_value": "500",
+			"base_weight": "3 lb",
+			"weapons": [
+				{
+					"id": "WLEn0aP7evXmksTGP",
+					"sv": 1,
+					"damage": {
+						"type": "pi+",
+						"base": "2d-1"
+					},
+					"strength": "10",
+					"accuracy": "2",
+					"range": "120/1,300",
+					"rate_of_fire": "1",
+					"shots": "6(3i)",
+					"bulk": "-2",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "2d-1 pi+"
+					}
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 500,
+				"extended_value": 500,
+				"weight": "3 lb",
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eS0sJ2e34yJ7p-PAi",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eSbpewVsAoQ9JJERq"
+			},
+			"description": ".45 S\u0026W (11.43x28mmR)",
+			"reference": "HT176",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"base_value": "0.5",
+			"base_weight": "0.045 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 0.5,
+				"extended_value": 0.5,
+				"weight": "0.045 lb",
+				"extended_weight": "0.045 lb"
+			}
+		},
+		{
+			"id": "eV5EI6y1M_0D4kJ1s",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ezAsIcHP7MnhC5hyZ"
+			},
+			"description": "S\u0026W Number 3 Schofield, .45 S\u0026W",
+			"reference": "HT95",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"Firearms"
+			],
+			"base_value": "550",
+			"base_weight": "2.5 lb",
+			"weapons": [
+				{
+					"id": "WL7RXxscsPGpDpitE",
+					"sv": 1,
+					"damage": {
+						"type": "pi+",
+						"base": "2d-1"
+					},
+					"strength": "10",
+					"accuracy": "2",
+					"range": "120/1,300",
+					"rate_of_fire": "1",
+					"shots": "6(2i)",
+					"bulk": "-2",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "2d-1 pi+"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 550,
+				"extended_value": 550,
+				"weight": "2.5 lb",
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "epZLKef95K4NoulMh",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eSbpewVsAoQ9JJERq"
+			},
+			"description": ".45 S\u0026W (11.43x28mmR)",
+			"reference": "HT176",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"base_value": "0.5",
+			"base_weight": "0.045 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 0.5,
+				"extended_value": 0.5,
+				"weight": "0.045 lb",
+				"extended_weight": "0.045 lb"
+			}
+		},
+		{
+			"id": "et7p8Tbox_LeKDsta",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e3ZPlQ2o9WIfaXbPF"
+			},
+			"description": "FN-Browning Mle 1906, .25 ACP",
+			"reference": "HT101",
+			"local_notes": "No lanyard ring.",
+			"tech_level": "6",
+			"legality_class": "3",
+			"tags": [
+				"Firearms"
+			],
+			"base_value": "160",
+			"base_weight": "0.8 lb",
+			"weapons": [
+				{
+					"id": "Wa7UVOzNUXOr3STwU",
+					"sv": 1,
+					"damage": {
+						"type": "pi-",
+						"base": "1d"
+					},
+					"strength": "7",
+					"range": "90/950",
+					"rate_of_fire": "3",
+					"shots": "6+1(3)",
+					"bulk": "-1",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "1d pi-"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 160,
+				"extended_value": 160,
+				"weight": "0.8 lb",
+				"extended_weight": "0.8 lb"
+			}
+		},
+		{
+			"id": "e7NiyPrx1heV2Qqz8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "en0GPmoopbPv6fOaW"
+			},
+			"description": ".25 ACP (6.35x16mmSR Browning)",
+			"reference": "HT176",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"base_value": "0.1",
+			"base_weight": "0.012 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 0.1,
+				"extended_value": 0.1,
+				"weight": "0.012 lb",
+				"extended_weight": "0.012 lb"
+			}
+		},
+		{
+			"id": "eBzWoKQJiZ1PglWyg",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eMcTal6MArqA-i0d9"
+			},
+			"description": "Mauser C96, 7.63x25mm",
+			"reference": "HT101",
+			"tech_level": "6",
+			"legality_class": "3",
+			"tags": [
+				"Firearms"
+			],
+			"base_value": "480",
+			"base_weight": "2.7 lb",
+			"weapons": [
+				{
+					"id": "W2rbRWti714IyOPgc",
+					"sv": 1,
+					"damage": {
+						"type": "pi-",
+						"base": "3d-1"
+					},
+					"strength": "9",
+					"accuracy": "2",
+					"range": "180/2,000",
+					"rate_of_fire": "3",
+					"shots": "10(3)",
+					"bulk": "-3",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "3d-1 pi-"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 480,
+				"extended_value": 480,
+				"weight": "2.7 lb",
+				"extended_weight": "2.7 lb"
+			}
+		},
+		{
+			"id": "eVey3ILVrpeVpbG4I",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "epvePQMV2baMymKCS"
+			},
+			"description": "7.63x25mm Mauser",
+			"reference": "HT176",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"base_value": "0.2",
+			"base_weight": "0.023 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 0.2,
+				"extended_value": 0.2,
+				"weight": "0.023 lb",
+				"extended_weight": "0.023 lb"
+			}
+		},
+		{
+			"id": "eGsyP1ggAf9eygoLy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "elpSHkigt-XBcbx7I"
+			},
+			"description": "Mauser C96, 7.63x25mm 10-round magazine",
+			"reference": "HT97",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"Firearms"
+			],
+			"base_value": "26",
+			"base_weight": "0.4 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 26,
+				"extended_value": 26,
+				"weight": "0.4 lb",
+				"extended_weight": "0.4 lb"
+			}
+		},
+		{
+			"id": "ePaLOGdK6r4RKIjmI",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eI7Ks4a5VsC5SvIj6"
+			},
+			"description": "Luger P08, 9X19mm",
+			"reference": "HT101",
+			"tech_level": "6",
+			"legality_class": "3",
+			"tags": [
+				"Firearms"
+			],
+			"base_value": "500",
+			"base_weight": "2.4 lb",
+			"weapons": [
+				{
+					"id": "WGAaDft-OaBeh7gp7",
+					"sv": 1,
+					"damage": {
+						"type": "pi",
+						"base": "2d+2"
+					},
+					"strength": "9",
+					"accuracy": "2",
+					"range": "160/1,800",
+					"rate_of_fire": "3",
+					"shots": "8+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "2d+2 pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 500,
+				"extended_value": 500,
+				"weight": "2.4 lb",
+				"extended_weight": "2.4 lb"
+			}
+		},
+		{
+			"id": "ez4Xx_GU0uFS9zisB",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eDpwycU3319jm_aUv"
+			},
+			"description": "9x19mm Parabellum",
+			"reference": "HT176",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"base_value": "0.3",
+			"base_weight": "0.026 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 0.3,
+				"extended_value": 0.3,
+				"weight": "0.026 lb",
+				"extended_weight": "0.026 lb"
+			}
+		},
+		{
+			"id": "emXohPA6fNcBroJW7",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ekoTi6HhKXp7nRVvR"
+			},
+			"description": "Winchester M1873, .44-40",
+			"reference": "HT120",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"Firearms"
+			],
+			"base_value": "420",
+			"base_weight": "8.9 lb",
+			"weapons": [
+				{
+					"id": "WPq8Rin7YS5IbnMgS",
+					"sv": 1,
+					"damage": {
+						"type": "pi+",
+						"base": "3d+1"
+					},
+					"strength": "9†",
+					"accuracy": "3",
+					"range": "300/2,200",
+					"rate_of_fire": "2",
+					"shots": "15+1(2i)",
+					"bulk": "-5",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "3d+1 pi+"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 420,
+				"extended_value": 420,
+				"weight": "8.9 lb",
+				"extended_weight": "8.9 lb"
+			}
+		},
+		{
+			"id": "e01okPKYoGqft3q-I",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eicUxdVc1qH0GasHP"
+			},
+			"description": ".44-40 Winchester (10.8x33mmR",
+			"reference": "HT177",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"base_value": "0.6",
+			"base_weight": "0.043 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 0.6,
+				"extended_value": 0.6,
+				"weight": "0.043 lb",
+				"extended_weight": "0.043 lb"
+			}
+		},
+		{
+			"id": "eBO21t7blULmTPWzp",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ekoTi6HhKXp7nRVvR"
+			},
+			"description": "Winchester M1873 Long Rifle, .44-40",
+			"reference": "HT120",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"Firearms"
+			],
+			"base_value": "420",
+			"base_weight": "8.7 lb",
+			"weapons": [
+				{
+					"id": "Wz0f229S4ga4DMAp_",
+					"sv": 1,
+					"damage": {
+						"type": "pi+",
+						"base": "3d+1"
+					},
+					"strength": "9†",
+					"accuracy": "3",
+					"range": "300/2,200",
+					"rate_of_fire": "2",
+					"shots": "17+1(2i)",
+					"bulk": "-6",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "3d+1 pi+"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 420,
+				"extended_value": 420,
+				"weight": "8.7 lb",
+				"extended_weight": "8.7 lb"
+			}
+		},
+		{
+			"id": "e51k9MDpH8EDxo3vX",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eicUxdVc1qH0GasHP"
+			},
+			"description": ".44-40 Winchester (10.8x33mmR",
+			"reference": "HT177",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"base_value": "0.6",
+			"base_weight": "0.043 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 0.6,
+				"extended_value": 0.6,
+				"weight": "0.043 lb",
+				"extended_weight": "0.043 lb"
+			}
+		},
+		{
+			"id": "eU_INK6mBz0t0oBzN",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ekoTi6HhKXp7nRVvR"
+			},
+			"description": "Winchester M1873 Carbine, .44-40",
+			"reference": "HT120",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"Firearms"
+			],
+			"base_value": "420",
+			"base_weight": "7.8 lb",
+			"weapons": [
+				{
+					"id": "WuXE11Cb1LCytl3ol",
+					"sv": 1,
+					"damage": {
+						"type": "pi+",
+						"base": "3d+1"
+					},
+					"strength": "9†",
+					"accuracy": "3",
+					"range": "300/2,200",
+					"rate_of_fire": "2",
+					"shots": "12+1(2i)",
+					"bulk": "-6",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "3d+1 pi+"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 420,
+				"extended_value": 420,
+				"weight": "7.8 lb",
+				"extended_weight": "7.8 lb"
+			}
+		},
+		{
+			"id": "elVRdGTA2y4jednNt",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eicUxdVc1qH0GasHP"
+			},
+			"description": ".44-40 Winchester (10.8x33mmR",
+			"reference": "HT177",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"base_value": "0.6",
+			"base_weight": "0.043 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 0.6,
+				"extended_value": 0.6,
+				"weight": "0.043 lb",
+				"extended_weight": "0.043 lb"
+			}
+		},
+		{
+			"id": "eWILSo5mPodhvFsom",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ekoTi6HhKXp7nRVvR"
+			},
+			"description": "Winchester M1866 \"Yellow Boy\", .44-40",
+			"reference": "HT120",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"Firearms"
+			],
+			"base_value": "420",
+			"base_weight": "10 lb",
+			"weapons": [
+				{
+					"id": "WDn9YIenXCEXDgg8A",
+					"sv": 1,
+					"damage": {
+						"type": "pi+",
+						"base": "2d+1"
+					},
+					"strength": "8†",
+					"accuracy": "3",
+					"range": "250/1,900",
+					"rate_of_fire": "2",
+					"shots": "17+1(2i)",
+					"bulk": "-5",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "2d+1 pi+"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 420,
+				"extended_value": 420,
+				"weight": "10 lb",
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "ewzL9Gcz4ij8cgZ_r",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eicUxdVc1qH0GasHP"
+			},
+			"description": ".44-40 Winchester (10.8x33mmR",
+			"reference": "HT177",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"base_value": "0.6",
+			"base_weight": "0.043 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 0.6,
+				"extended_value": 0.6,
+				"weight": "0.043 lb",
+				"extended_weight": "0.043 lb"
+			}
+		},
+		{
+			"id": "eqhreIV4s3vR14sio",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eAGqBfzU1sQHkJ_T5"
+			},
+			"description": "Martini-Henry Mk I, .450 MH",
+			"reference": "HT120",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"Firearms"
+			],
+			"base_value": "550",
+			"base_weight": "8.9 lb",
+			"weapons": [
+				{
+					"id": "W_xYyLGbduUHWe-qF",
+					"sv": 1,
+					"damage": {
+						"type": "pi+",
+						"base": "5d"
+					},
+					"strength": "10†",
+					"accuracy": "4",
+					"range": "500/3,200",
+					"rate_of_fire": "1",
+					"shots": "1(3)",
+					"bulk": "-6",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "5d pi+"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 550,
+				"extended_value": 550,
+				"weight": "8.9 lb",
+				"extended_weight": "8.9 lb"
+			}
+		},
+		{
+			"id": "eLYuzA0nAtayw_2L8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eImTFMNR5Z3FDUb1P"
+			},
+			"description": ".450 Martini-Henry (11.43x59mmR)",
+			"reference": "HT177",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"base_value": "1",
+			"base_weight": "0.11 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 1,
+				"extended_value": 1,
+				"weight": "0.11 lb",
+				"extended_weight": "0.11 lb"
+			}
+		},
+		{
+			"id": "epHasuVLU92LAavNS",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e22lYvrpeVpE0znPx"
+			},
+			"description": "Springfield M1873, .45-70",
+			"reference": "HT120",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"Firearms"
+			],
+			"base_value": "570",
+			"base_weight": "9.2 lb",
+			"weapons": [
+				{
+					"id": "Wx45O7eFb4NVnjlHp",
+					"sv": 1,
+					"damage": {
+						"type": "pi+",
+						"base": "5d"
+					},
+					"strength": "10†",
+					"accuracy": "3",
+					"range": "470/3,000",
+					"rate_of_fire": "1",
+					"shots": "1(3)",
+					"bulk": "-6",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "5d pi+"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 570,
+				"extended_value": 570,
+				"weight": "9.2 lb",
+				"extended_weight": "9.2 lb"
+			}
+		},
+		{
+			"id": "eO5W2jUJAfFAcJswG",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e6cmtjgBtWt4zr6WZ"
+			},
+			"description": ".45-70 Springfield (11.43x53mmR)",
+			"reference": "HT177",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"base_value": "1",
+			"base_weight": "0.086 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 1,
+				"extended_value": 1,
+				"weight": "0.086 lb",
+				"extended_weight": "0.086 lb"
+			}
+		},
+		{
+			"id": "ewQcCE9tMAKwMQikq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e6JqzK5k1avwYhxWk"
+			},
+			"description": "Remington Rolling Block",
+			"reference": "HT120",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"Firearms"
+			],
+			"base_value": "650",
+			"base_weight": "9.2 lb",
+			"weapons": [
+				{
+					"id": "WDwRaDi99e_cZCkgZ",
+					"sv": 1,
+					"damage": {
+						"type": "pi+",
+						"base": "5d"
+					},
+					"strength": "10†",
+					"accuracy": "4",
+					"range": "470/3,000",
+					"rate_of_fire": "1",
+					"shots": "1(3)",
+					"bulk": "-6",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "5d pi+"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 650,
+				"extended_value": 650,
+				"weight": "9.2 lb",
+				"extended_weight": "9.2 lb"
+			}
+		},
+		{
+			"id": "e87F2XBmld_BP4VlM",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e6cmtjgBtWt4zr6WZ"
+			},
+			"description": ".45-70 Springfield (11.43x53mmR)",
+			"reference": "HT177",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"base_value": "1",
+			"base_weight": "0.086 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 1,
+				"extended_value": 1,
+				"weight": "0.086 lb",
+				"extended_weight": "0.086 lb"
+			}
+		},
+		{
+			"id": "ejdUxcz2sfGQ-wNuc",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "erQU3fqNqIE1NPeNb"
+			},
+			"description": "Winchester Model 1887, 10G 2.875\"",
+			"reference": "HT104",
+			"tech_level": "6",
+			"legality_class": "3",
+			"tags": [
+				"Firearms"
+			],
+			"base_value": "800",
+			"base_weight": "8 lb",
+			"weapons": [
+				{
+					"id": "WRoMrd2x3Xo4XjO8V",
+					"sv": 1,
+					"damage": {
+						"type": "pi",
+						"base": "2d-1"
+					},
+					"strength": "11†",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "2x13",
+					"shots": "4+1(2i)",
+					"bulk": "-6",
+					"recoil": "1/7",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "2d-1 pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 800,
+				"extended_value": 800,
+				"weight": "8 lb",
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "eOHNo6lbqDZWlf7VH",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "erCcHFq1_jVJa9ecY"
+			},
+			"description": "10-gauge 2.875\"",
+			"reference": "HT176",
+			"local_notes": "Light cased. Shotshell.",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"base_value": "1.3",
+			"base_weight": "0.15 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 1.3,
+				"extended_value": 1.3,
+				"weight": "0.15 lb",
+				"extended_weight": "0.15 lb"
+			}
+		},
+		{
+			"id": "e6CY0LOPIuSUuWMMv",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eevjTNNYZXZhJnXvl"
+			},
+			"description": "Winchester Model 1897, 12G 2.75\"",
+			"reference": "HT104",
+			"tech_level": "6",
+			"legality_class": "3",
+			"tags": [
+				"Firearms"
+			],
+			"base_value": "550",
+			"base_weight": "8.6 lb",
+			"weapons": [
+				{
+					"id": "WRKD3BEwjCNpFWz-1",
+					"sv": 1,
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "11†",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "2x9",
+					"shots": "5+1(2i)",
+					"bulk": "-6",
+					"recoil": "1/5",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "1d+1 pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 550,
+				"extended_value": 550,
+				"weight": "8.6 lb",
+				"extended_weight": "8.6 lb"
+			}
+		},
+		{
+			"id": "eo8By1zIFgZFIg43U",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eV9LEdHXs6dUkNDpf"
+			},
+			"description": "12-gauge 2.75\" (18.5x70mmR)",
+			"reference": "HT176",
+			"local_notes": "Shotshell.",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"base_value": "0.7",
+			"base_weight": "0.13 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 0.7,
+				"extended_value": 0.7,
+				"weight": "0.13 lb",
+				"extended_weight": "0.13 lb"
+			}
+		},
+		{
+			"id": "eQFO_ENS2h_em6hN9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "erQU3fqNqIE1NPeNb"
+			},
+			"description": "Winchester Model 1887, 10G 2.875\"",
+			"reference": "HT104",
+			"local_notes": "Sawed-Off",
+			"tech_level": "6",
+			"legality_class": "3",
+			"tags": [
+				"Firearms"
+			],
+			"base_value": "800",
+			"base_weight": "6.5 lb",
+			"weapons": [
+				{
+					"id": "WNlHeBgptLWuJ_9Rc",
+					"sv": 1,
+					"damage": {
+						"type": "pi",
+						"base": "2d-1"
+					},
+					"strength": "11†",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "2x13",
+					"shots": "4+1(2i)",
+					"bulk": "-4",
+					"recoil": "1/7",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "2d-1 pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 800,
+				"extended_value": 800,
+				"weight": "6.5 lb",
+				"extended_weight": "6.5 lb"
+			}
+		},
+		{
+			"id": "eUE0fGRFTG8RxlsKy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "erCcHFq1_jVJa9ecY"
+			},
+			"description": "10-gauge 2.875\"",
+			"reference": "HT176",
+			"local_notes": "Light cased. Shotshell.",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"base_value": "1.3",
+			"base_weight": "0.15 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 1.3,
+				"extended_value": 1.3,
+				"weight": "0.15 lb",
+				"extended_weight": "0.15 lb"
+			}
+		},
+		{
+			"id": "erYCqh4MgzuGwpqUm",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eevjTNNYZXZhJnXvl"
+			},
+			"description": "Winchester Model 1897, 12G 2.75\"",
+			"reference": "HT104",
+			"local_notes": "Sawed-Off",
+			"tech_level": "6",
+			"legality_class": "3",
+			"tags": [
+				"Firearms"
+			],
+			"base_value": "550",
+			"base_weight": "7.1 lb",
+			"weapons": [
+				{
+					"id": "WXoUCnP7-TA_aM7ev",
+					"sv": 1,
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "11†",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "2x9",
+					"shots": "5+1(2i)",
+					"bulk": "-4",
+					"recoil": "1/5",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "1d+1 pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 550,
+				"extended_value": 550,
+				"weight": "7.1 lb",
+				"extended_weight": "7.1 lb"
+			}
+		},
+		{
+			"id": "e40llju8rWT0t2xp7",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "erCcHFq1_jVJa9ecY"
+			},
+			"description": "10-gauge 2.875\"",
+			"reference": "HT176",
+			"local_notes": "Light cased. Shotshell.",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"base_value": "1.3",
+			"base_weight": "0.15 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 1.3,
+				"extended_value": 1.3,
+				"weight": "0.15 lb",
+				"extended_weight": "0.15 lb"
+			}
+		},
+		{
+			"id": "e1DtJ7Fc5ksIJ1AOx",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eju0T3bMAZglNXsu_"
+			},
+			"description": "FN-Browning Auto-5, 12G, 2.75\"",
+			"reference": "HT104",
+			"tech_level": "6",
+			"legality_class": "3",
+			"tags": [
+				"Firearms"
+			],
+			"base_value": "850",
+			"base_weight": "8.9 lb",
+			"weapons": [
+				{
+					"id": "W1ZPsZL8uGVIpWxVW",
+					"sv": 1,
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "11†",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "2x9",
+					"shots": "5+1(2i)",
+					"bulk": "-6",
+					"recoil": "1/4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "1d+1 pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 850,
+				"extended_value": 850,
+				"weight": "8.9 lb",
+				"extended_weight": "8.9 lb"
+			}
+		},
+		{
+			"id": "eoDO8-JWUAqFMU8vz",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eV9LEdHXs6dUkNDpf"
+			},
+			"description": "12-gauge 2.75\" (18.5x70mmR)",
+			"reference": "HT176",
+			"local_notes": "Shotshell.",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"base_value": "0.7",
+			"base_weight": "0.13 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 0.7,
+				"extended_value": 0.7,
+				"weight": "0.13 lb",
+				"extended_weight": "0.13 lb"
+			}
+		},
+		{
+			"id": "e-p0j1HDnIXdyTtQV",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ebMXz5Rqkqa-9cNBG"
+			},
+			"description": "FN-Browning Auto-5, 16G 2.75\"",
+			"reference": "HT104",
+			"tech_level": "6",
+			"legality_class": "3",
+			"tags": [
+				"Firearms"
+			],
+			"base_value": "850",
+			"base_weight": "8.4 lb",
+			"weapons": [
+				{
+					"id": "WF4qY4dSQ5qZu3i4a",
+					"sv": 1,
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "11†",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "3x8",
+					"shots": "5+1(2i)",
+					"bulk": "-6",
+					"recoil": "1/4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "1d+1 pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 850,
+				"extended_value": 850,
+				"weight": "8.4 lb",
+				"extended_weight": "8.4 lb"
+			}
+		},
+		{
+			"id": "enZY5hk68oMqB-y_s",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eQe-si3vwQtS8WV30"
+			},
+			"description": "16-gauge 2.75\" (16.8x70mmR)",
+			"reference": "HT176",
+			"local_notes": "Light cased. Shotshell.",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"base_value": "0.4",
+			"base_weight": "0.09 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 0.4,
+				"extended_value": 0.4,
+				"weight": "0.09 lb",
+				"extended_weight": "0.09 lb"
+			}
+		},
+		{
+			"id": "eb_FldxalU8Zi09OZ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e4HNgvTsIycK-x09U"
+			},
+			"description": "FN-Browning Auto-5, 20G 2.75\"",
+			"reference": "HT104",
+			"tech_level": "6",
+			"legality_class": "3",
+			"tags": [
+				"Firearms"
+			],
+			"base_value": "850",
+			"base_weight": "7.9 lb",
+			"weapons": [
+				{
+					"id": "WcPknFRm2pdc9KGMt",
+					"sv": 1,
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "11†",
+					"accuracy": "3",
+					"range": "40/800",
+					"rate_of_fire": "3x7",
+					"shots": "5+1(2i)",
+					"bulk": "-6",
+					"recoil": "1/4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "1d+1 pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 850,
+				"extended_value": 850,
+				"weight": "7.9 lb",
+				"extended_weight": "7.9 lb"
+			}
+		},
+		{
+			"id": "eq1JUWs0pE3v1eQpI",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eDkH_lWh1P_uP4JIX"
+			},
+			"description": "20-gauge 2.75\" (15.56x70mmR)",
+			"reference": "HT176",
+			"local_notes": "Light cased. Shotshell.",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"base_value": "0.4",
+			"base_weight": "0.08 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 0.4,
+				"extended_value": 0.4,
+				"weight": "0.08 lb",
+				"extended_weight": "0.08 lb"
+			}
+		},
+		{
+			"id": "eKmy96vqgFCuED5XG",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "ezUsY06LxChQRA_qQ"
+			},
+			"description": "Longbow",
+			"reference": "B275",
+			"tech_level": "0",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Arrow"
+			],
+			"base_value": "200",
+			"base_weight": "3 lb",
+			"weapons": [
+				{
+					"id": "W_etsACVXMKwqPtEl",
+					"sv": 1,
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "11†",
+					"accuracy": "3",
+					"range": "x15/x20",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-8",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+2 imp",
+						"range": "165/220"
+					}
+				}
+			],
+			"rated_strength": 11,
+			"quantity": 1,
+			"calc": {
+				"value": 200,
+				"extended_value": 200,
+				"weight": "3 lb",
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "ev3GzkEa-zezXQRIi",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e63Ia0RA0wpWsFO7Y"
+			},
+			"description": "Arrow",
+			"reference": "B276",
+			"tech_level": "0",
+			"tags": [
+				"AmmoType:Arrow",
+				"Ammunition",
+				"Missile Weapon"
+			],
+			"base_value": "2",
+			"base_weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 2,
+				"extended_value": 2,
+				"weight": "0.1 lb",
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eVu5Ouyl8Q9EW-jw6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eXUobxqqnRpnmw9Bc"
+			},
+			"description": "Regular Bow",
+			"reference": "B275",
+			"tech_level": "0",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Arrow"
+			],
+			"base_value": "100",
+			"base_weight": "2 lb",
+			"weapons": [
+				{
+					"id": "W942O9dy1-Aejs9Ll",
+					"sv": 1,
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "10†",
+					"accuracy": "2",
+					"range": "x15/x20",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-7",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+1 imp",
+						"range": "150/200"
+					}
+				}
+			],
+			"rated_strength": 10,
+			"quantity": 1,
+			"calc": {
+				"value": 100,
+				"extended_value": 100,
+				"weight": "2 lb",
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eu0QQ1-gGZzj6Ww_j",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e63Ia0RA0wpWsFO7Y"
+			},
+			"description": "Arrow",
+			"reference": "B276",
+			"tech_level": "0",
+			"tags": [
+				"AmmoType:Arrow",
+				"Ammunition",
+				"Missile Weapon"
+			],
+			"base_value": "2",
+			"base_weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 2,
+				"extended_value": 2,
+				"weight": "0.1 lb",
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eUnhi8xB1X3UBK4CU",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eEkU3I9Vr5NFZ7o2m"
+			},
+			"description": "Short Bow",
+			"reference": "B275",
+			"tech_level": "0",
+			"tags": [
+				"Missile Weapon",
+				"UsesAmmoType:Arrow"
+			],
+			"base_value": "50",
+			"base_weight": "2 lb",
+			"weapons": [
+				{
+					"id": "WIwJDg6ZUKSPTye4-",
+					"sv": 1,
+					"damage": {
+						"type": "imp",
+						"st": "thr"
+					},
+					"strength": "7†",
+					"accuracy": "1",
+					"range": "x10/x15",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr imp",
+						"range": "70/105"
+					}
+				}
+			],
+			"rated_strength": 7,
+			"quantity": 1,
+			"calc": {
+				"value": 50,
+				"extended_value": 50,
+				"weight": "2 lb",
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "ewRmqmCV3BUozVL9y",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e63Ia0RA0wpWsFO7Y"
+			},
+			"description": "Arrow",
+			"reference": "B276",
+			"tech_level": "0",
+			"tags": [
+				"AmmoType:Arrow",
+				"Ammunition",
+				"Missile Weapon"
+			],
+			"base_value": "2",
+			"base_weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 2,
+				"extended_value": 2,
+				"weight": "0.1 lb",
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eMJkX15OvEWrUzCTT",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eeQgU7KaAJKcO9rBW"
+			},
+			"description": "Small Knife",
+			"reference": "B272",
+			"tech_level": "0",
+			"tags": [
+				"Melee Weapon",
+				"Missile Weapon"
+			],
+			"base_value": "30",
+			"base_weight": "0.5 lb",
+			"weapons": [
+				{
+					"id": "w9fNfj51z3Dyb8H49",
+					"sv": 1,
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "-3"
+					},
+					"strength": "5",
+					"usage": "Swung",
+					"reach": "C,1",
+					"parry": "-1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Knife"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "sw-3 cut"
+					}
+				},
+				{
+					"id": "wp6o8hA8HngVwn3-S",
+					"sv": 1,
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "-1"
+					},
+					"strength": "5",
+					"usage": "Thrust",
+					"reach": "C",
+					"parry": "-1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Knife"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "thr-1 imp"
+					}
+				},
+				{
+					"id": "W5Dhq_e_1jL5e88KH",
+					"sv": 1,
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "-1"
+					},
+					"strength": "5",
+					"usage": "Thrown",
+					"range": "x0.5/x1",
+					"rate_of_fire": "1",
+					"shots": "T",
+					"bulk": "-1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Knife"
+						}
+					],
+					"calc": {
+						"damage": "thr-1 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 30,
+				"extended_value": 30,
+				"weight": "0.5 lb",
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "e2zL48sGijYIQrlV0",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eyr4BCskITxqJR9-P"
+			},
+			"description": "Large Knife",
+			"reference": "B272",
+			"tech_level": "0",
+			"tags": [
+				"Melee Weapon",
+				"Missile Weapon"
+			],
+			"base_value": "40",
+			"base_weight": "1 lb",
+			"weapons": [
+				{
+					"id": "wQdzjqfzJCqreZZYS",
+					"sv": 1,
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "-2"
+					},
+					"strength": "6",
+					"usage": "Swung",
+					"reach": "C,1",
+					"parry": "-1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Knife"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "sw-2 cut"
+					}
+				},
+				{
+					"id": "wAVj-eXKHk_6jTGG-",
+					"sv": 1,
+					"damage": {
+						"type": "imp",
+						"st": "thr"
+					},
+					"strength": "6",
+					"usage": "Thrust",
+					"reach": "C",
+					"parry": "-1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Knife"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "thr imp"
+					}
+				},
+				{
+					"id": "WwFKGOBizaPObz1fC",
+					"sv": 1,
+					"damage": {
+						"type": "imp",
+						"st": "thr"
+					},
+					"strength": "6",
+					"usage": "Thrown",
+					"range": "x0.8/x1.5",
+					"rate_of_fire": "1",
+					"shots": "T",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Knife"
+						}
+					],
+					"calc": {
+						"damage": "thr imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 40,
+				"extended_value": 40,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eX5ej0oBwepcMnphh",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eSkpxAVUFdjWZpCaA"
+			},
+			"description": "Dagger",
+			"reference": "B272",
+			"tech_level": "1",
+			"tags": [
+				"Melee Weapon",
+				"Missile Weapon"
+			],
+			"base_value": "20",
+			"base_weight": "0.25 lb",
+			"weapons": [
+				{
+					"id": "wHSFSsyFb8VwD8vIz",
+					"sv": 1,
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "-1"
+					},
+					"strength": "5",
+					"usage": "Thrust",
+					"reach": "C",
+					"parry": "-1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Knife"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "thr-1 imp"
+					}
+				},
+				{
+					"id": "Wh7fO_Xgf_MJunNWJ",
+					"sv": 1,
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "-1"
+					},
+					"strength": "5",
+					"usage": "Thrown",
+					"range": "x0.5/x1",
+					"rate_of_fire": "1",
+					"shots": "T",
+					"bulk": "-1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Knife"
+						}
+					],
+					"calc": {
+						"damage": "thr-1 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 20,
+				"extended_value": 20,
+				"weight": "0.25 lb",
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "eV8RQbqYQCS3A8flK",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "euxMoWgpe1odTnfgp"
+			},
+			"description": "Saber",
+			"reference": "B273",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"base_value": "700",
+			"base_weight": "2 lb",
+			"weapons": [
+				{
+					"id": "wnHKTIu-djcCmMOA-",
+					"sv": 1,
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "-1"
+					},
+					"strength": "8",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "0F",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Saber"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "sw-1 cut"
+					}
+				},
+				{
+					"id": "wSWvhBGOpIPX5ONKC",
+					"sv": 1,
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "8",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0F",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Saber"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "thr+1 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 700,
+				"extended_value": 700,
+				"weight": "2 lb",
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eg1oDQ5QEQ9rFbSLe",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "esTCKW-HE-yXPqSz9"
+			},
+			"description": "Cavalry Saber",
+			"reference": "B271",
+			"tech_level": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"base_value": "500",
+			"base_weight": "3 lb",
+			"weapons": [
+				{
+					"id": "wPrSo5Lt1uHgVt-I1",
+					"sv": 1,
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "1"
+					},
+					"strength": "10",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "sw+1 cut"
+					}
+				},
+				{
+					"id": "wiqp4cMgFkM5OfF8-",
+					"sv": 1,
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "10",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "thr+1 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 500,
+				"extended_value": 500,
+				"weight": "3 lb",
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eT6CnkXYghJdp4wLO",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Martial Arts/Martial Arts Equipment.eqp",
+				"id": "eHHC0waW7XG_5rhuB"
+			},
+			"description": "Tacape",
+			"reference": "MA226",
+			"local_notes": "Knobbed Club",
+			"tech_level": "0",
+			"tags": [
+				"Melee Weapon"
+			],
+			"base_value": "20",
+			"base_weight": "2 lb",
+			"weapons": [
+				{
+					"id": "w71yHRCd-gCODCbyo",
+					"sv": 1,
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "1"
+					},
+					"strength": "8",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Axe/Mace"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Flail",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "sw+1 cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 20,
+				"extended_value": 20,
+				"weight": "2 lb",
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e41Z5-Np0O947lKwa",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e6qjxZtOg7lCt_TE5"
+			},
+			"description": "Spear",
+			"reference": "B273",
+			"tech_level": "0",
+			"tags": [
+				"Melee Weapon",
+				"Missile Weapon"
+			],
+			"base_value": "40",
+			"base_weight": "4 lb",
+			"weapons": [
+				{
+					"id": "wQkVnlGVJUanjVng4",
+					"sv": 1,
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "9",
+					"usage": "Thrust",
+					"reach": "1*",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Spear"
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Staff",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "thr+2 imp"
+					}
+				},
+				{
+					"id": "wDK196_6_l0_MUeJK",
+					"sv": 1,
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "3"
+					},
+					"strength": "9†",
+					"usage": "Thrust",
+					"reach": "1-2*",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Spear"
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Staff",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "thr+3 imp"
+					}
+				},
+				{
+					"id": "W26FRkzY6ImV8pEdW",
+					"sv": 1,
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "3"
+					},
+					"strength": "9",
+					"usage": "Thrown",
+					"accuracy": "2",
+					"range": "x1/x1.5",
+					"rate_of_fire": "1",
+					"shots": "T",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Spear"
+						},
+						{
+							"type": "skill",
+							"name": "Spear Thrower",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Harpoon",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "thr+3 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 40,
+				"extended_value": 40,
+				"weight": "4 lb",
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "ejK5dav9Guj596QO2",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eCmue6B6tqEQZvGPg"
+			},
+			"description": "Lariat",
+			"reference": "B276",
+			"tech_level": "1",
+			"tags": [
+				"Missile Weapon"
+			],
+			"base_value": "40",
+			"base_weight": "3 lb",
+			"weapons": [
+				{
+					"id": "WVg5BqemhKLY8ORJ9",
+					"sv": 1,
+					"damage": {
+						"type": "see B411"
+					},
+					"strength": "7†",
+					"rate_of_fire": "1",
+					"shots": "T",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Lasso"
+						}
+					],
+					"calc": {
+						"damage": "see B411"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 40,
+				"extended_value": 40,
+				"weight": "3 lb",
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "evcIuyXpCQszTqb7e",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eQU1crPWui_l0uBWn"
+			},
+			"description": "Molotov Cocktail",
+			"reference": "B277",
+			"local_notes": "Fuse spec.",
+			"tech_level": "6",
+			"legality_class": "3",
+			"tags": [
+				"Missile Weapon"
+			],
+			"base_weight": "1 lb",
+			"weapons": [
+				{
+					"id": "WjJdjoTO6eCLB_x6N",
+					"sv": 1,
+					"damage": {
+						"type": "spec. (1 y)"
+					},
+					"range": "x3.5",
+					"rate_of_fire": "1",
+					"shots": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "spec. (1 y)"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 0,
+				"extended_value": 0,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e87L8SrUPigl5w0zg",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eAP1xOhjKhmSla-sv"
+			},
+			"description": "Dynamite Stick",
+			"reference": "HT185",
+			"local_notes": "Fuse 3-5. 1.25” in diameter and 8” long (Holdout -2)",
+			"tech_level": "6",
+			"legality_class": "2",
+			"tags": [
+				"Explosives and Incendiaries"
+			],
+			"base_value": "5",
+			"base_weight": "0.5 lb",
+			"weapons": [
+				{
+					"id": "WULfpBiFcvnm_FRFN",
+					"sv": 1,
+					"damage": {
+						"type": "cr ex",
+						"base": "9d+1"
+					},
+					"range": "x3.5",
+					"rate_of_fire": "1",
+					"shots": "T",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": 4
+						},
+						{
+							"type": "skill",
+							"name": "Throwing"
+						}
+					],
+					"calc": {
+						"damage": "9d+1 cr ex"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 5,
+				"extended_value": 5,
+				"weight": "0.5 lb",
+				"extended_weight": "0.5 lb"
+			}
+		}
+	]
+}

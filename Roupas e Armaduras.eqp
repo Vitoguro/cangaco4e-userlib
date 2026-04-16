@@ -1,0 +1,508 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eItt5V5_iilbTQ93R",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e9Jv_y8-d9IYpcjy1"
+			},
+			"description": "Leather Leggings",
+			"reference": "B283",
+			"local_notes": "Flexible, concealable",
+			"tech_level": "1",
+			"tags": [
+				"Limb Armor"
+			],
+			"base_value": "40",
+			"base_weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 40,
+				"extended_value": 40,
+				"weight": "2 lb",
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eCOrO9dEcEEHnKZNu",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eyERK2z5J0P5RDdDJ"
+			},
+			"description": "Ordinary Clothes",
+			"reference": "B266",
+			"local_notes": "Status -2",
+			"tags": [
+				"Clothing"
+			],
+			"base_value": "20",
+			"base_weight": "2 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 20,
+				"extended_value": 20,
+				"weight": "2 lb",
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "ecTewDSaMKxyDu59C",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "ec7dxIgBphcpGL-dM"
+			},
+			"description": "Ordinary Clothes",
+			"reference": "B266",
+			"local_notes": "Status -1",
+			"tags": [
+				"Clothing"
+			],
+			"base_value": "60",
+			"base_weight": "2 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 60,
+				"extended_value": 60,
+				"weight": "2 lb",
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "evhvZuHpi4IKW5ZSe",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eLpY_lV7JPT_Srj5A"
+			},
+			"description": "Ordinary Clothes",
+			"reference": "B266",
+			"local_notes": "Status 0",
+			"tags": [
+				"Clothing"
+			],
+			"base_value": "120",
+			"base_weight": "2 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 120,
+				"extended_value": 120,
+				"weight": "2 lb",
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eYuNnmBb4uUbWGznA",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "ehIxhuv_8_PA8EnPd"
+			},
+			"description": "Cloth Armor",
+			"reference": "B283",
+			"local_notes": "Flexible, concealable",
+			"tech_level": "1",
+			"tags": [
+				"Body Armor"
+			],
+			"base_value": "30",
+			"base_weight": "6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin",
+						"torso",
+						"vitals"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 30,
+				"extended_value": 30,
+				"weight": "6 lb",
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "ec0xJt0M6WW-Nv5ax",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eRA26uszm1kmjCNFD"
+			},
+			"description": "Gibão (Buff Coat (Leather))",
+			"reference": "B283",
+			"local_notes": "Flexible",
+			"tech_level": "4",
+			"tags": [
+				"Body Armor"
+			],
+			"base_value": "210",
+			"base_weight": "16 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm",
+						"leg",
+						"torso",
+						"vitals"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 210,
+				"extended_value": 210,
+				"weight": "16 lb",
+				"extended_weight": "16 lb"
+			}
+		},
+		{
+			"id": "egXAdPRpekFssWhGf",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eCTWgE9-NyG_jpylR"
+			},
+			"description": "Alpercatas",
+			"reference": "B284",
+			"local_notes": "Concealable",
+			"tech_level": "0",
+			"tags": [
+				"Footwear"
+			],
+			"base_value": "25",
+			"base_weight": "0.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"specialization": "underside",
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 25,
+				"extended_value": 25,
+				"weight": "0.5 lb",
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "e5Yps_4_qjnu8hAoA",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eqjKrBrvaqYGsCNzN"
+			},
+			"description": "Boots",
+			"reference": "HT68",
+			"local_notes": "Flexible.",
+			"tech_level": "5",
+			"tags": [
+				"Defenses"
+			],
+			"base_value": "80",
+			"base_weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"value": 80,
+				"extended_value": 80,
+				"weight": "3 lb",
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eftoAHUmd5ryINGIx",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "epjuxYIP6F7fIg2N1"
+			},
+			"description": "Leather Cap",
+			"reference": "B284",
+			"local_notes": "Flexible",
+			"tech_level": "1",
+			"tags": [
+				"Headgear"
+			],
+			"base_value": "32",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 32,
+				"extended_value": 32,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eDcqCsQZB54tMDTdL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eHrqp6pQu0HOlrGX2"
+			},
+			"description": "Hat, Cloth",
+			"reference": "HT64",
+			"tech_level": "1",
+			"tags": [
+				"Headgear"
+			],
+			"base_value": "6",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 6,
+				"extended_value": 6,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e68WiFWQDf8TJkEX_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eDtwX3wN3ZF5pexs2"
+			},
+			"description": "Belt",
+			"reference": "HT31",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "10",
+			"quantity": 1,
+			"calc": {
+				"value": 10,
+				"extended_value": 10,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "Ebb5NBmXvibuw8Q6J",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ENKzQiZL3Tmkj14vi"
+			},
+			"description": "Belt Holster",
+			"reference": "HT153",
+			"tech_level": "5",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"base_value": "25",
+			"base_weight": "0.5 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 25,
+				"extended_value": 25,
+				"weight": "0.5 lb",
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "EIGk43gonzFj06AN3",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "EZmTImcnQGfYobrie"
+			},
+			"description": "Scabbard",
+			"reference": "HT154",
+			"tech_level": "5",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"base_value": "25",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 25,
+				"extended_value": 25,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "EDumvNJLqNBLe6Y9G",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "EZ31nyRChF7ifO7zd"
+			},
+			"description": "Rifle Sling",
+			"reference": "HT154",
+			"tech_level": "5",
+			"tags": [
+				"Firearm Accessories"
+			],
+			"base_value": "10",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 10,
+				"extended_value": 10,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "EEKHL5XMaBQC03ug4",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "E4fDArJxMHKDhLf_3"
+			},
+			"description": "Cartridge Bandoleer",
+			"reference": "HT54",
+			"local_notes": "Holds 50 rounds.",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "15",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 15,
+				"extended_value": 15,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "Ey6fWpYJFYveGpUiq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "EC9pbuRiqgNLqH3AW"
+			},
+			"description": "Bornal",
+			"reference": "HT31",
+			"tech_level": "5",
+			"tags": [
+				"General Equipment"
+			],
+			"base_value": "10",
+			"base_weight": "1 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "20 lb"
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 10,
+				"extended_value": 10,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "EAgKaOqB7Sh1RuOGZ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "EWdo_3qnvFlJpicOV"
+			},
+			"description": "Shoulder Quiver",
+			"reference": "B289",
+			"local_notes": "Holds 12 arrows or bolts",
+			"tech_level": "0",
+			"tags": [
+				"Weapon and Combat Accessories"
+			],
+			"base_value": "10",
+			"base_weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 10,
+				"extended_value": 10,
+				"weight": "0.5 lb",
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "ElCxH2VW_-5V4dHlB",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "EAkfUiW1QiOMrslcL"
+			},
+			"description": "Hip Quiver",
+			"reference": "B289",
+			"local_notes": "Holds 20 arrows or bolts",
+			"tech_level": "0",
+			"tags": [
+				"Weapon and Combat Accessories"
+			],
+			"base_value": "15",
+			"base_weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 15,
+				"extended_value": 15,
+				"weight": "1 lb",
+				"extended_weight": "1 lb"
+			}
+		}
+	]
+}
